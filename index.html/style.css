@@ -1,26 +1,10 @@
-h2{
-    color: orange;
-}
-
 body{
-    background-color: #305050;
-    text-align: center;
-    font-family: roboto;
+    background-color: #141a49;
     color: white;
 }
 
-header{
-    border-bottom: 1px solid grey;
-}
-
-footer{
-    border-top: 1px solid grey;
-}
-
-#nome-usuário{
-    font-weight: bold;
-}
-
-.text-inglês{
-    font-style: italic;
+ul{
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
 }

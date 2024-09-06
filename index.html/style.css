@@ -7,12 +7,19 @@ ul{
     display: flex;
     justify-content: right;
     list-style-type: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
 }
 
+.shape {
+    transform: scaleY(0,75);
+    background-color: white ;
+}
 .quadro {
-    width : 4000px;
-    height: 1000px;
+    display:block;
+    width : fill;
+    height: 850px;
     padding: 10px;
-    box-shadow: 2px 10px rgba(0,0,0,0.1);
     background-color: white;
+    margin-top: 2%;
 }

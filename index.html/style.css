@@ -16,24 +16,31 @@ ul{
     font-size: 20px;
 }
 
-.shape {
-    transform: scaleY(0,75);
-    background-color: white ;
-}
 .quadro {
-    display:block;
+    display:flex;
     width : fill;
     height: 850px;
     padding: 10px;
     background-color: white;
     margin-top: 2%;
+    flex-direction: row column;
 }
 ul  {
     text-align: center;
 }
+.bloco{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border-radius: 30%;
+}
+.separação{
+    display: flex;
+    flex-direction: row column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 200px;
+}
 img{
-    height: 250px;
-    position: absolute;
-    top: 15%;
-    transform: translateX(60px) ;
+ border-radius: 30%;
 }
